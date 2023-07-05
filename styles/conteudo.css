@@ -1,0 +1,31 @@
+.conteudo{
+    background-color: var(--branco-principal);
+    border-radius: 43px;
+    padding: 5em;
+}
+
+.conteudo__titulo{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: var(--preto-principal);
+    letter-spacing: -0.15625rem;
+    line-height: 9.375rem;
+    padding-bottom: 1em;
+}
+
+.conteudo__listas{
+    display: flex;
+    font-weight: 600;
+    font-size: 35px;
+    gap: 7em;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.15625rem;
+    line-height: 5rem;
+    margin-bottom: 1em;
+}
+
+.conteudo__lista__item{
+    list-style: disc;
+}

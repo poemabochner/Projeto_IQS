@@ -2,7 +2,7 @@
     color: var(--branco-principal);
     background-color: var(--laranja-principal);
     margin-top: 2em;
-    padding: 3.5em 5em 3.5em 5em;
+    padding: 3.5em 7em 3.5em 7em;
     border-radius: 43px;
     display: flex;
     flex-direction: column;
@@ -22,11 +22,11 @@
 .descricao__texto{
     font-weight: 600;
     font-size: 28px;
-    padding-bottom: 1em;
     letter-spacing: -0.07rem;
 }
 
 .descricao__botao{
+    margin-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;

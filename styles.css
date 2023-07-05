@@ -1,6 +1,8 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/descricao.css");
+@import url("styles/depoimentos.css");
+@import url("styles/conteudo.css");
 
 * {
     padding: 0;
@@ -14,6 +16,7 @@
     --laranja-principal: #B6661B;
     --cinza-opaco: rgba(217, 217, 217, 0.8);
     --preto-secundario: #000000; 
+    --cinza-fundo: rgba(217, 217, 217, 0.20);
 }
 
 body {

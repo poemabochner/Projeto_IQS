@@ -8,6 +8,7 @@
 .cabecalho__lista-menu {
     color: var(--branco-principal);
     font-size: 1.25em;
+    font-weight: 500;
 }
 
 .cabecalho__lista-menu__item {
@@ -21,13 +22,14 @@
 
 .cabecalho__botoes {
     display: flex;
-    gap: 3em;
+    gap: 2.5em;
 }
 
 .cabecalho__botoes__links {
     text-decoration: none;
     color: var(--branco-principal);
     font-size: 16px;
+    font-weight: 500;
     border: 2px solid var(--branco-principal);
     border-radius: 5px;
     padding: 0.3em 0.8em;
@@ -36,4 +38,23 @@
     gap: 0.8em;
     height: 1.8em;
     width: 7em;
+}
+
+.banner-video{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-video__titulo{
+    margin-top: 1em;
+    color: var(--branco-principal);
+    font-size: 43px;
+    background-color: var(--laranja-principal);
+    height: 86px;
+    width: 816px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 }

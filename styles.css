@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --preto-principal: #242323;
+    --branco-principal: #FFFFFF;
+    --laranja-principal: #B6661B;
+    --cinza-opaco: rgba(217, 217, 217, 0.8);
+    --preto-secundario: #000000; 
+}
+
+body {
+    background-color: var(--preto-principal);
+}
+

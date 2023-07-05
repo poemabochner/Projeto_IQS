@@ -10,6 +10,7 @@
 :root {
     --preto-principal: #242323;
     --branco-principal: #FFFFFF;
+    --branco-opaco: rgba(255, 255, 255, 0.03);
     --laranja-principal: #B6661B;
     --cinza-opaco: rgba(217, 217, 217, 0.8);
     --preto-secundario: #000000; 

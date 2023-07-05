@@ -1,0 +1,18 @@
+.banner-video{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-video__titulo{
+    margin-top: 1em;
+    color: var(--branco-principal);
+    font-size: 2.6em;
+    background-color: var(--laranja-principal);
+    height: 2em;
+    width: 20em;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}

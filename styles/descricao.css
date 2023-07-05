@@ -1,0 +1,47 @@
+.descricao {
+    color: var(--branco-principal);
+    background-color: var(--laranja-principal);
+    margin-top: 2em;
+    padding: 3.5em 5em 3.5em 5em;
+    border-radius: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao__item {
+    padding-top: 1em;
+}
+
+.descricao__titulo{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.descricao__texto{
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 1em;
+}
+
+.descricao__botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--branco-principal);
+    color: var(--laranja-principal);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 45px;
+    width: 524px;
+    height: 87px;
+    border-radius: 10px;
+    letter-spacing: -0.12rem;
+}
+
+.descricao__texto2 {
+    font-weight: 400;
+    font-size: 28px;
+}

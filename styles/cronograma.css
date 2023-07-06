@@ -1,0 +1,31 @@
+.cronograma {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 3.8em;
+}
+
+.cronograma__titulo{
+    color: var(--branco-principal);
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: -0.1125rem;
+}
+
+.cronograma__botao{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--branco-principal);
+    color: var(--laranja-principal);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 45px;
+    width: 622px;
+    height: 103px;
+    border-radius: 5px;
+    letter-spacing: -0.12rem;
+}

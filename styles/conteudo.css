@@ -1,7 +1,7 @@
 .conteudo{
     background-color: var(--branco-principal);
     border-radius: 43px;
-    padding: 5em;
+    padding: 5em 3em 3em 3em;
 }
 
 .conteudo__titulo{
@@ -10,7 +10,7 @@
     text-align: center;
     color: var(--preto-principal);
     letter-spacing: -0.15625rem;
-    line-height: 9.375rem;
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 

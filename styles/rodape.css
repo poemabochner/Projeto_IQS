@@ -1,0 +1,46 @@
+.rodape {
+    background-color: var(--laranja-principal);
+    padding: 12em 5em 3.5em 5em;
+    border-radius: 43px 43px 0px 0px;
+}
+
+.rodape__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__inferior{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 2em 0em 3em;
+}
+
+.rodape__botoes {
+    display: flex;
+    gap: 2.5em;
+}
+
+.rodape__botoes__links{
+    text-decoration: none;
+    background-color: var(--preto-principal);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    width: 145px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--branco-principal);
+    gap: 0.7em;
+    font-weight: 500;
+}
+
+.botao2 {
+    background-color: var(--branco-principal);
+    color: var(--preto-secundario);
+    border: 1px solid var(--preto-secundario);
+}
+
+.rodape__icone-preto{
+    filter: invert(100%) sepia(0%) saturate(6040%) hue-rotate(304deg) brightness(114%) contrast(91%);
+}

@@ -17,6 +17,7 @@
 .banner-video__frente{
     display: flex;
     position: absolute;
+    flex-direction: column;
 }
 
 .banner-video__titulo{
@@ -29,6 +30,20 @@
     border-radius: 16px;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     font-weight: 700;
+}
+
+.banner-video__video {
+    padding: 2em 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-video__video-play {
+    width: 45em; 
+    height: 22em;
+    border: 3px solid transparent;
+    border-radius: 39px;
 }

@@ -11,10 +11,11 @@
     font-weight: 700;
     font-size: 45px;
     letter-spacing: -0.1125rem;
+    padding: 0.1em;
+    padding-bottom: 1em;
 }
 
 .cronograma__botao{
-    margin-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,4 +29,92 @@
     height: 103px;
     border-radius: 5px;
     letter-spacing: -0.12rem;
+}
+
+.cronograma__botao-frente {
+    display: flex;
+    position: absolute;
+    margin-top: 17em;
+}
+
+.container {
+    padding-bottom: 2em;
+}
+
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+    
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted var(--branco-principal);
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted var(--branco-principal);
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--laranja-principal);
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: var(--laranja-principal);
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+
+.h6 {
+    color: var(--branco-principal);
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.linha-do-tempo__texto {
+    padding-bottom: 3em;
+}
+
+.linha-do-tempo__data {
+    padding-bottom: 0.5em;
 }

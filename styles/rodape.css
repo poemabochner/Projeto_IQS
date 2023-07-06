@@ -11,6 +11,7 @@
 
 .rodape__inferior{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 3em 2em 0em 3em;
 }
@@ -39,8 +40,19 @@
     background-color: var(--branco-principal);
     color: var(--preto-secundario);
     border: 1px solid var(--preto-secundario);
+    font-weight: 500;
 }
 
 .rodape__icone-preto{
     filter: invert(100%) sepia(0%) saturate(6040%) hue-rotate(304deg) brightness(114%) contrast(91%);
+}
+
+.rodape__texto{
+    font-size: 20px;
+    color: var(--branco-principal);
+}
+
+.cronograma-rodape {
+    display: flex;
+    position: absolute;
 }

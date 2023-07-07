@@ -1,12 +1,19 @@
 .rodape {
     background-color: var(--laranja-principal);
-    padding: 12em 5em 3.5em 5em;
+    padding: 4.5em 5em 3.5em 5em;
     border-radius: 43px 43px 0px 0px;
 }
 
 .rodape__container{
     display: flex;
     flex-direction: column;
+}
+
+.rodape__textinho {
+    color: var(--branco-principal);
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 2em;
 }
 
 .rodape__inferior{

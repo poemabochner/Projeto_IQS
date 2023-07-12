@@ -57,6 +57,7 @@
 .rodape__texto{
     font-size: 20px;
     color: var(--branco-principal);
+    padding-left: 1em;
 }
 
 .cronograma-rodape {

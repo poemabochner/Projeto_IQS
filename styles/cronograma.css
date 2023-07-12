@@ -33,8 +33,9 @@
 
 .cronograma__botao-frente {
     display: flex;
-    position: absolute;
-    margin-top: 17em;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container {
@@ -112,7 +113,7 @@
 }
 
 .linha-do-tempo__texto {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 .linha-do-tempo__data {
